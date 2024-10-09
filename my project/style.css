@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(imgs/hom3.jpg);
+    background-position: center;
+    height: 100vh;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+ /* .header{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}  */
+.head {
+    display: flex;
+    justify-content: center;
+    background-color: #241b1b34;
+    padding-bottom: 15px;
+    
+}
+
+.logo{
+    display: inline-block;
+    position: absolute;
+    left: 40px;
+    top: 20px;
+    font-size: 20px;
+}
+
+.logo a {
+    position: absolute;
+    left: 40px;
+    top: -5px;
+    padding-left: 10px;
+}
+
+.logo img {
+    position: absolute;
+    top: -15px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.login{
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.mainhead{
+    margin-top: 20px;
+}
+
+.mainhead a, .login a {
+    padding: 10px;
+}
+
+.login a {
+    padding: 0 5px 0 5px;
+}
+
+.mainhead a {
+    padding: 0 25px 0 25px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:active {
+    color: #ff9305fb;
+    
+}
+
+.mainhead a:hover, .login a:hover {
+    color: #fff;
+    background-color: #ff9305fb;
+    border: 10px solid #ff9305fb;
+}
